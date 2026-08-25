@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<nav class="navbar bg-dark navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="inicio.html">Futbol Management</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- offcanvas-end text-bg-dark (añadido para que el menú lateral también sea oscuro) -->
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú Principal</h5>
+             <!-- btn-close-white para que la "X" se vea en el fondo oscuro -->
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="inicio.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="canchas.html">Canchas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="reservar.html">Reservas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="precios.html">Precios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+                </li>
+                     <li class="nav-item">
+                <a class="nav-link" href="albums.html">Playlists</a>
+              </li>
+            </ul> 
+          </div>
+        </div>
+      </div>
+    </nav>
+ <div class="container mt-5">
+     <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbumes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            padding-top: 20px;
+        }
+        .card-img-top {
+            height: 350px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+  <h1 class="text-white text-center my-4">Mis Álbumes Favoritos</h1>
+  <nav class="navbar navbar-expand-lg bg-dark border-bottom border-secondary mb-4" data-bs-theme="dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">/a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#miMenu" aria-controls="miMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="miMenu">
+      
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Duki</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Wos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ysy A</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">The Weeknd</a>
+        </li>
+      </ul>
+
+      <form class="d-flex" role="search" onsubmit="event.preventDefault();">
+        <input id="buscador" class="form-control me-2" type="search" placeholder="Buscar artista o álbum..." aria-label="Buscar">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+
+    </div>
+  </div>
+</nav>
+  <div class="container text-center">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <!-- Album de duki -->
+       <div class="col">
+        <div class="card h-100 bg-dark text-white border-secondary">
+          <img src="img/vicho/ssj.jpg" class="card-img-top" alt="DUKI - Super Sangre Joven">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">DUKI - Super Sangre Joven</h5>
+            <p class="card-text">Súper sangre joven es el álbum de estudio debut del rapero argentino Duki. Fue lanzado el 1 de noviembre de 2019 a través de Dale Play Records y SSJ Records. Cuenta con colaboraciones de artistas como YSY A, Khea, C. Tangana, Alemán y Eladio Carrión.</p>
+            <a href="https://open.spotify.com/intl-es/album/1SbMoaKFJWo8u1tb2dAgHt?si=4f488661dfd44ef0" target="_blank" class="btn btn-success mt-auto">Escuchar en Spotify</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card h-100 bg-dark text-white border-secondary">
+          <img src="img/vicho/desdeelfindelmundo.jpg" class="card-img-top" alt="DUKI - Desde El Fin Del Mundo">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">DUKI - Desde El Fin Del Mundo</h5>
+            <p class="card-text">Desde el fin del mundo es el segundo álbum de estudio del rapero argentino Duki. Fue lanzado el 22 de abril de 2021 a través de los sellos independientes SSJ Records y Dale Play Records.</p>
+            <a href="https://open.spotify.com/intl-es/album/3MKQjYpaES80tFP7Qo2zH0?si=Tx8gorK7Rx-2a_F4bi6LJQ" target="_blank" class="btn btn-success mt-auto">Escuchar en Spotify</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 bg-dark text-white border-secondary">
+          <img src="img/vicho/temporadadereggaeton.jpg" class="card-img-top" alt="DUKI - Temporada de Reggaetón">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">DUKI - Temporada de Reggaetón</h5>
+            <p class="card-text">Temporada de Reggaetón es un proyecto del artista argentino Duki, lanzado el 25 de noviembre de 2021. En esta obra, Duki se aleja temporalmente del trap puro para explorar sonidos orientados al reggaetón y la música urbana bailable.</p>
+            <a href="https://open.spotify.com/intl-es/album/48vGyeerQqM7mWU0JzRkAl?si=MtylNUtZRfevJVxXgCXL1w" target="_blank" class="btn btn-success mt-auto">Escuchar en Spotify</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 bg-dark text-white border-secondary">
+          <img src="img/vicho/temporadadereggaeton2.jpg" class="card-img-top" alt="DUKI - Temporada de Reggaetón 2">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">DUKI - Temporada de Reggaetón 2</h5>
+            <p class="card-text">Temporada de Reggaetón 2 es la continuación de su proyecto anterior, lanzado el 23 de junio de 2022. Incluye grandes éxitos comerciales y marca el cierre de su etapa enfocada en este género antes de preparar su regreso al trap.</p>
+            <a href="https://open.spotify.com/intl-es/album/6anO6Uh11TivGpTI56aKCH?si=ZhPDk3P3Q5G08fRWU6_ntg" target="_blank" class="btn btn-success mt-auto">Escuchar en Spotify</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 bg-dark text-white border-secondary">
+          <img src="img/vicho/antesdeameri.jpg" class="card-img-top" alt="DUKI - Antes de Ameri">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">DUKI - Antes de Ameri</h5>
+            <p class="card-text">Antes de Ameri es el tercer álbum de estudio de Duki, lanzado el 22 de junio de 2023. El disco marca su esperado regreso a las raíces del trap y sirve como un preludio conceptual y sonoro para su siguiente gran obra.</p>
+            <a href="https://open.spotify.com/intl-es/album/26nUVuonXEdbJTo9PeBYoR?si=9PlAOoK5TPGb8hmdRyPEew" target="_blank" class="btn btn-success mt-auto">Escuchar en Spotify</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 bg-dark text-white border-secondary">
+          <img src="img/vicho/ameri.jpg" class="card-img-top" alt="DUKI - Ameri">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">DUKI - Ameri</h5>
+            <p class="card-text">Ameri es el cuarto álbum de estudio del rapero y compositor argentino Duki, lanzado mundialmente el 31 de octubre de 2024 a través de Dale Play Records y SSJ Records. El álbum rompió varios récords de ventas y streaming, a nivel regional y mundial.</p>
+            <a href="https://open.spotify.com/intl-es/album/3rVk419T7ct4qoW52h2q2d?si=kw6GRbKySzCmGX8AF-B-Iw" target="_blank" class="btn btn-success mt-auto">Escuchar en Spotify</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 bg-dark text-white border-secondary">
+          <img src="img/vicho/5202.jpg" class="card-img-top" alt="DUKI - Antes de Ameri">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">DUKI - 5202</h5>
+            <p class="card-text">5202 es el primer mixtape del rapero argentino Duki, lanzado el 7 de julio de 2025 bajo el sello discográfico Dale Play Records.</p>
+            <a href="https://open.spotify.com/intl-es/album/7GK7b47WfktjsrNmjvua00?si=439a7a125f4141c9" target="_blank" class="btn btn-success mt-auto">Escuchar en Spotify</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Album de wos -->
+      <div class="col">
+        <div class="card h-100 bg-dark text-white border-secondary">
+          <img src="img/vicho/oscuroextasis.jpg" class="card-img-top" alt="WOS - Oscuro Extasis">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">WOS - Oscuro Extasis</h5>
+            <p class="card-text">Oscuro Éxtasis (2021) es el segundo disco de estudio del artista argentino WOS. El álbum funciona como un viaje emocional y sonoro que explora los miedos, las dudas, las sombras del éxito y la adrenalina. Mezcla rap clásico con rock alternativo, funk y nu-metal junto al productor Evlay.</p>
+            <a href="https://open.spotify.com/intl-es/album/0fYhjxeRFdXp6s8R9hUXKt?si=5e8029a719624517" target="_blank" class="btn btn-success mt-auto">Escuchar en Spotify</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 bg-dark text-white border-secondary">
+          <img src="img/vicho/descartable.jpg" class="card-img-top" alt="WOS - Descartable">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">WOS - Descartable</h5>
+            <p class="card-text">Descartable (2024) es el tercer álbum de estudio del artista argentino Wos. Es un disco de 16 canciones con un sonido fuertemente arraigado en el rock nacional, producido junto a Evlay. La obra transita por la introspección personal, la melancolía y una aguda crítica al sistema.</p>
+            <a href="https://open.spotify.com/intl-es/album/0t9xw4VcPabCkwVO77u31Z?si=52b6ca53df574948" target="_blank" class="btn btn-success mt-auto">Escuchar en Spotify</a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Album de ysy a -->
+      <div class="col">
+        <div class="card h-100 bg-dark text-white border-secondary">
+          <img src="img/vicho/antezana247.jpg" class="card-img-top" alt="YSY A - Antezana 247">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">YSY A - Antezana 247</h5>
+            <p class="card-text">Antezana 247 es el álbum de estudio debut del rapero YSY A. Se lanzó el 11 de noviembre de 2018, fue distribuido por Faro Latino y contó con las colaboraciones de Duki, Neo Pistea, Obie Wanshot y Marcianos Crew.</p>
+            <a href="https://open.spotify.com/intl-es/album/5tPDpnIZLtftbejuG6BllH?si=2e574d8587d34ea4" target="_blank" class="btn btn-success mt-auto">Escuchar en Spotify</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 bg-dark text-white border-secondary">
+          <img src="img/vicho/ysysmo.jpg" class="card-img-top" alt="YSY A - Ysysmo">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">YSY A - Ysysmo</h5>
+            <p class="card-text">Ysysmo es el cuarto álbum de estudio del rapero YSY A. Se lanzó el 11 de noviembre de 2022 distribuido por ONErpm. El álbum fue lanzado completamente en solitario y con las producciones principalmente de Oniria y Baxian.</p>
+            <a href="https://open.spotify.com/intl-es/album/2Vo0I6ocNBz16QklB1zVc3?si=d6f041e84f1d49de" target="_blank" class="btn btn-success mt-auto">Escuchar en Spotify</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 bg-dark text-white border-secondary">
+          <img src="img/vicho/starboy.jpg" class="card-img-top" alt="The Weeknds - Starboy">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">The Weeknds - Starboy</h5>
+            <p class="card-text">Starboy es el título del tercer álbum de estudio del cantante y compositor canadiense The Weeknd. XO y Republic Records lanzaron el disco el 25 de noviembre de 2016. El álbum cuenta con varios artistas invitados como Daft Punk, Lana Del Rey, Future y Kendrick Lamar.</p>
+            <a href="https://open.spotify.com/intl-es/album/2ODvWsOgouMbaA5xf0RkJe?si=bf207aceed3d4994" target="_blank" class="btn btn-success mt-auto">Escuchar en Spotify</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const buscador = document.getElementById('buscador');
+    buscador.addEventListener('keyup', function() {
+            const textoBusqueda = buscador.value.toLowerCase();
+            const tarjetas = document.querySelectorAll('.col');
+      tarjetas.forEach(tarjeta => {
+        const titulo = tarjeta.querySelector('.card-title').textContent.toLowerCase();
+        if (titulo.includes(textoBusqueda)) {
+          tarjeta.style.display = ''; 
+        } else {
+          tarjeta.style.display = 'none';
+        }
+      });
+      
+    });
+  </script>
+</body>
+</html>
+  <footer class="text-white text-center py-3 mt-4">
+     <p>Creado por Vicente Espinoza - 2026</p>
+  </footer>
+</body>
+</html>
+</body>
+</html>
