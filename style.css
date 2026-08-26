@@ -10,6 +10,7 @@ body {
   background: url('img/gabriel/nacional.jpg') no-repeat center center / cover fixed #1a1a1a;
   min-height: 100vh;
   margin: 0;
+  
 }
 
 .caja-transparente {
@@ -25,8 +26,7 @@ body {
   /* Texto blanco para asegurar legibilidad */
   color: #ffffff;
 }
-    color: white;
-}
+
 
 .bg-image-custom {
     content: "";
@@ -47,4 +47,8 @@ body {
 }
 .separador{
     margin-top: 200px;
+}
+
+.modal-reserva p{
+  color: #000000;
 }
