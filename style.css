@@ -6,7 +6,7 @@ p{
     margin-bottom: 60px;
 }
 
-body {
+.bg-nacional {
   background: url('img/gabriel/nacional.jpg') no-repeat center center / cover fixed #1a1a1a;
   min-height: 100vh;
   margin: 0;
@@ -25,8 +25,7 @@ body {
   /* Texto blanco para asegurar legibilidad */
   color: #ffffff;
 }
-    color: white;
-}
+
 
 .bg-image-custom {
     content: "";
