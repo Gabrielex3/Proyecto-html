@@ -1,6 +1,4 @@
 p{
-<<<<<<< Updated upstream
-=======
     color: rgb(255, 255, 255);
 }
 
@@ -27,9 +25,7 @@ p{
   /* Texto blanco para asegurar legibilidad */
   color: #ffffff;
 }
->>>>>>> Stashed changes
-    color: white;
-}
+
 
 .bg-image-custom {
     content: "";
